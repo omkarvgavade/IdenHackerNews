@@ -1,12 +1,77 @@
-# React + Vite
+# 🚀 Hacker News Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Hacker News clone built using **React.js** with Redux Toolkit, infinite scroll, dark/light theme, and a clean, performant UI.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [https://hackernewsclone123.netlify.app/top](https://hackernewsclone123.netlify.app/top)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Why React.js?
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+While the assignment recommended using **Next.js**, I opted for **React.js** because I have in-depth experience with it and wanted to deliver a polished, well-structured product within the deadline. This decision allowed me to focus on architecture, UX, and features confidently.
+
+---
+
+## 📋 Features
+
+- ✅ **Separate Pages**: Top, Best, and New Stories
+- ✅ **Infinite Scroll** for seamless post loading
+- ✅ **Dark / Light Theme** toggle with persistent UI state
+- ✅ **Redux Toolkit** for centralized and scalable state management
+- ✅ **Responsive Design** across mobile, tablet, and desktop
+- ✅ **Skeleton/Shimmer Loader** for better loading UX
+- ✅ **External Story Links** open in a new tab
+- 🔜 **Upcoming**: View comments on each story
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework**: React.js (with Vite)
+- **Routing**: React Router
+- **State Management**: Redux Toolkit
+- **Styling**: Tailwind CSS
+- **API**: [Hacker News Official API](https://github.com/HackerNews/API)
+- **Icons**: Lucide Icons 
+- **Deployment**: Netlify
+
+---
+
+## 🚦 How to Run the App Locally
+
+Follow these steps to run the Hacker News Clone on your local machine:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/omkarvgavade/IdenHackerNews.git
+```
+
+### 2. Install Dependencies
+
+Using npm:
+```bash
+npm install
+```
+
+Or using yarn:
+```bash
+yarn install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Your app will now be running at:
+```
+http://localhost:5173/top
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+
